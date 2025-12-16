@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Orders - HelloIdly Admin</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <div class="mobile-wrapper">
+        <header class="admin-header">
+            <h1 class="outlet-name" style="font-size: 1.5rem;">HelloIdly Admin</h1>
+            <nav class="admin-nav">
+                <a href="orders.html">Live Orders</a>
+                <a href="search.html" class="active">Search</a>
+                <a href="menu.html">Menu</a>
+                <a href="#" onclick="logout()">Logout</a>
+            </nav>
+        </header>
+
+        <main class="orders-container">
+            <div class="search-box" style="margin-bottom: 2rem; text-align: center;">
+                <input type="text" id="search-input" placeholder="Order No or Last 4 digits of Passcode">
+                <button onclick="searchOrder()" class="cta-button"
+                    style="margin-top: 1rem; width: 100%;">Search</button>
+            </div>
+
+            <div id="search-results"></div>
+        </main>
+    </div>
+    <script src="../admin.js"></script>
+</body>
+
+</html>

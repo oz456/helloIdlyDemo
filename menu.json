@@ -1,0 +1,267 @@
+[
+    {
+        "category": "Idly",
+        "items": [
+            {
+                "id": 1,
+                "name": "Single Idly",
+                "price": 30
+            },
+            {
+                "id": 2,
+                "name": "Idly (2 pcs)",
+                "price": 30
+            },
+            {
+                "id": 3,
+                "name": "Ghee Idly (2 pcs)",
+                "price": 75
+            },
+            {
+                "id": 4,
+                "name": "Butter Idly (2 pcs)",
+                "price": 75
+            },
+            {
+                "id": 5,
+                "name": "Panneer Idly (2 pcs)",
+                "price": 85
+            },
+            {
+                "id": 6,
+                "name": "Tawa Idly (2 pcs)",
+                "price": 75
+            },
+            {
+                "id": 7,
+                "name": "Masala Idly (2 pcs)",
+                "price": 75
+            },
+            {
+                "id": 8,
+                "name": "Hello Special Idly (2 pcs)",
+                "price": 105
+            }
+        ]
+    },
+    {
+        "category": "Plain Dosa",
+        "items": [
+            {
+                "id": 9,
+                "name": "Plain Dosa",
+                "price": 50
+            },
+            {
+                "id": 10,
+                "name": "Onion Dosa",
+                "price": 60
+            },
+            {
+                "id": 11,
+                "name": "Masala Dosa",
+                "price": 60
+            },
+            {
+                "id": 12,
+                "name": "Upma Dosa",
+                "price": 60
+            }
+        ]
+    },
+    {
+        "category": "Ulli Karam Dosa",
+        "items": [
+            {
+                "id": 13,
+                "name": "Ulli Karam Plain Dosa",
+                "price": 45
+            },
+            {
+                "id": 14,
+                "name": "Ulli Karam Onion Dosa",
+                "price": 60
+            },
+            {
+                "id": 15,
+                "name": "Ulli Karam Masala Dosa",
+                "price": 75
+            },
+            {
+                "id": 16,
+                "name": "Ulli Karam Upma Dosa",
+                "price": 60
+            },
+            {
+                "id": 17,
+                "name": "Ulli Karam Ghee Dosa",
+                "price": 95
+            }
+        ]
+    },
+    {
+        "category": "Butter Dosa",
+        "items": [
+            {
+                "id": 18,
+                "name": "Butter Plain Dosa",
+                "price": 80
+            },
+            {
+                "id": 19,
+                "name": "Butter Onion Dosa",
+                "price": 95
+            },
+            {
+                "id": 20,
+                "name": "Butter Masala Dosa",
+                "price": 95
+            },
+            {
+                "id": 21,
+                "name": "Butter Upma Dosa",
+                "price": 95
+            },
+            {
+                "id": 22,
+                "name": "Butter Panneer Dosa",
+                "price": 120
+            }
+        ]
+    },
+    {
+        "category": "Ghee Dosa",
+        "items": [
+            {
+                "id": 23,
+                "name": "Ghee Plain Dosa",
+                "price": 95
+            },
+            {
+                "id": 24,
+                "name": "Ghee Onion Dosa",
+                "price": 95
+            },
+            {
+                "id": 25,
+                "name": "Ghee Masala Dosa",
+                "price": 95
+            },
+            {
+                "id": 26,
+                "name": "Ghee Upma Dosa",
+                "price": 95
+            },
+            {
+                "id": 27,
+                "name": "Ghee Pesarattu",
+                "price": 100
+            },
+            {
+                "id": 28,
+                "name": "Ghee Pesara Onion Dosa",
+                "price": 100
+            }
+        ]
+    },
+    {
+        "category": "Pesara Dosa",
+        "items": [
+            {
+                "id": 29,
+                "name": "Pesara Plain Dosa",
+                "price": 55
+            },
+            {
+                "id": 30,
+                "name": "Pesara Onion Dosa",
+                "price": 70
+            },
+            {
+                "id": 31,
+                "name": "Pesara Masala Dosa",
+                "price": 70
+            },
+            {
+                "id": 32,
+                "name": "Pesara Upma Dosa",
+                "price": 70
+            }
+        ]
+    },
+    {
+        "category": "Panneer Dosa",
+        "items": [
+            {
+                "id": 33,
+                "name": "Panneer Plain Dosa",
+                "price": 85
+            },
+            {
+                "id": 34,
+                "name": "Panneer Onion Dosa",
+                "price": 95
+            },
+            {
+                "id": 35,
+                "name": "Panneer Masala Dosa",
+                "price": 95
+            },
+            {
+                "id": 36,
+                "name": "Panneer Upma Dosa",
+                "price": 95
+            },
+            {
+                "id": 37,
+                "name": "Panneer Ulli Karam Dosa",
+                "price": 95
+            },
+            {
+                "id": 38,
+                "name": "Panneer Ulli Karam Upma Dosa",
+                "price": 105
+            },
+            {
+                "id": 39,
+                "name": "Panneer Ulli Karam Masala Dosa",
+                "price": 105
+            },
+            {
+                "id": 40,
+                "name": "Panneer Butter Upma Dosa",
+                "price": 120
+            },
+            {
+                "id": 41,
+                "name": "Panneer Butter Masala Dosa",
+                "price": 120
+            }
+        ]
+    },
+    {
+        "category": "Butter + Ulli Karam Specials",
+        "items": [
+            {
+                "id": 42,
+                "name": "Butter Ulli Karam Dosa",
+                "price": 95
+            },
+            {
+                "id": 43,
+                "name": "Butter Ulli Karam Upma Dosa",
+                "price": 105
+            },
+            {
+                "id": 44,
+                "name": "Butter Ulli Karam Masala Dosa",
+                "price": 105
+            },
+            {
+                "id": 45,
+                "name": "Butter Pesara Upma Dosa",
+                "price": 95
+            }
+        ]
+    }
+]

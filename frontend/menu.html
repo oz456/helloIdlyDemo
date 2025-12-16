@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - HelloIdly</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="mobile-wrapper">
+        <header class="menu-header">
+            <h1 class="outlet-name">HelloIdly – SRM</h1>
+        </header>
+        <nav class="category-tabs">
+            <!-- Tabs will be populated by JS; static placeholder -->
+            <button class="tab active" data-category="all">All</button>
+            <button class="tab" data-category="idly">Idly</button>
+            <button class="tab" data-category="dosa">Dosa</button>
+            <!-- Add more as needed -->
+        </nav>
+        <section class="menu-items" id="menu-items">
+            <!-- Items will be injected via JS -->
+            <p>Loading menu...</p>
+        </section>
+        <a href="cart.html" class="sticky-cart">View Cart (0)</a>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

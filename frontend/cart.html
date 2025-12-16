@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - HelloIdly</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="mobile-wrapper">
+        <header class="menu-header">
+            <a href="menu.html" class="back-link">← Back</a>
+            <h1 class="outlet-name" style="font-size: 1.5rem;">Your Cart</h1>
+        </header>
+
+        <section class="cart-items" id="cart-items">
+            <!-- Cart items injected via JS -->
+            <p>Your cart is empty.</p>
+        </section>
+
+        <div class="cart-summary">
+            <div class="total-row">
+                <span>Total</span>
+                <span id="cart-total">₹0</span>
+            </div>
+            <a href="pay.html" class="pay-btn">Pay Now (UPI)</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

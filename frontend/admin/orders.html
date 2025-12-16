@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Orders - HelloIdly Admin</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <div class="mobile-wrapper">
+        <header class="admin-header">
+            <h1 class="outlet-name" style="font-size: 1.5rem;">HelloIdly Admin</h1>
+            <nav class="admin-nav">
+                <a href="orders.html" class="active">Live Orders</a>
+                <a href="search.html">Search</a>
+                <a href="menu.html">Menu</a>
+                <a href="#" onclick="logout()">Logout</a>
+            </nav>
+        </header>
+
+        <main class="orders-container" id="orders-list">
+            <p style="text-align:center; opacity:0.7;">Loading orders...</p>
+        </main>
+    </div>
+
+    <script src="../admin.js"></script>
+</body>
+
+</html>

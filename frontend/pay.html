@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay - HelloIdly</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="mobile-wrapper">
+        <header class="menu-header">
+            <h1 class="outlet-name" style="font-size: 1.5rem;">Payment</h1>
+        </header>
+
+        <main class="payment-container">
+            <div class="amount-display">
+                <p>Total to Pay</p>
+                <h2 id="pay-amount">₹0</h2>
+            </div>
+
+            <div class="upi-options">
+                <p>Select App to Pay</p>
+                <div class="upi-apps">
+                    <a href="#" id="gpay-link" class="upi-app">GPay</a>
+                    <a href="#" id="phonepe-link" class="upi-app">PhonePe</a>
+                    <a href="#" id="paytm-link" class="upi-app">Paytm</a>
+                </div>
+            </div>
+
+            <div class="qr-section">
+                <p>Or Scan QR Code</p>
+                <div class="qr-box">
+                    <!-- Placeholder for QR -->
+                    <div id="qr-code-placeholder"
+                        style="width: 200px; height: 200px; background: #fff; margin: 0 auto; display: flex; align-items: center; justify-content: center; color: #000;">
+                        QR Code
+                    </div>
+                </div>
+            </div>
+
+            <div class="status-message">
+                <div class="spinner"></div>
+                <p>Waiting for payment...</p>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
